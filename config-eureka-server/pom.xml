@@ -9,23 +9,21 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>config-server</artifactId>
+    <artifactId>config-eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-    <name>config-server</name>
+    <name>config-eureka-server</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
             <version>1.3.0.RELEASE</version>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-            <version>1.3.0.RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
