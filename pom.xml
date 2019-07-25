@@ -9,15 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>eureka-client</module>
-        <module>eureka-server</module>
-    </modules>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
+        <version>1.5.2.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -25,7 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-could.version>Finchley.RELEASE</spring-could.version>
+        <spring-could.version>Dalston.RELEASE</spring-could.version>
     </properties>
 
     <dependencyManagement>
